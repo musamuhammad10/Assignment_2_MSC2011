@@ -32,5 +32,13 @@ if (is.na(usernum) | usernum < 100 | usernum >= 1000 | usernum != round(usernum)
   }
 }
 
-
+#' Ashley: Code is very well commented. Comments allowed the code to be very easy
+#' to understand and to follow. Variable names were also very readable. The code 
+#' functions as I expected it to. One suggestion is to try to consider more cases
+#' where the user may enter an unexpected input. For example, including a check for
+#' if the input is a decimal or not. Another suggestion may be to inform the user why
+#' their input was invalid. For example, if the user enters a 4 digit number, the error
+#' message may display something like, "INVALID ENTRY, input was a 4 digit number, 
+#' program is terminating. Please try again!". This code fulfills all of the tasks outlined
+#' in the assignment.
 
