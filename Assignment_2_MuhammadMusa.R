@@ -10,7 +10,7 @@ usernum <- as.numeric(usernum)
 
 # Check if the user input is numeric and a positive 3 digit number. If not, print an error message and quit.
 # If input is valid, continue to check if the number is narcissistic.
-if (is.na(usernum) | usernum < 100 ) {
+if (is.na(usernum) | usernum < 100 | usernum >= 1000 | usernum != round(usernum) ) {
   print("INVALID ENTRY, program is terminating. Please try again!")
 } else {
   
